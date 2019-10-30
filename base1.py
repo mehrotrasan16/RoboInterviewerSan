@@ -58,7 +58,7 @@ while ans == "Y" or ans == "R" and i in range(len(Introdict["Question"])):
     ans = input("Continue?(Y/N/Redo(R))")
     if ans == "Y":
         i+=1
-        
-    
+    elif ans == "N":
+        break
+#TODOs: Record voice and replay at choice.
 
-          
